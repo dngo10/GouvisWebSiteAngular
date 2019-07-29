@@ -1,0 +1,50 @@
+.Panel1Text1{
+    
+    margin : auto;
+    text-align: left;
+    font-size: 5vh;
+    color: #ffffff;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-family: 'Elianto-Font';
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.Panel1Text2{
+    margin : auto;
+    text-align: left;
+    font-size: 2.5vh;
+    color: #ffffff;
+    font-family: 'Elianto-Font';
+    padding-bottom: 3vh;
+    margin-top: 3vh;
+}
+.PanelTextUnder{
+    margin: auto;
+    width: 80%
+}
+
+.Panel1Divider{
+    border-bottom: .25vh dotted white;
+}
+
+
+.PanelText{
+    background-color: #b1c147
+}
+
+.Panel1{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1vh;
+    grid-auto-rows: 1fr
+
+}
+
+.Panel1Image{
+    background-image: url('../../../assets/Medias/Images/HomePagePicture1.jpg');
+    background-size: cover;
+    height: 50vh;
+}

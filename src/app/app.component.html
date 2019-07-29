@@ -1,16 +1,24 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div>
+    <app-logo-home-page></app-logo-home-page>
     <div class="bannerImagesHomePage">
       <app-banner></app-banner>
     </div>
-    <div class="firstClass"  >
-        <!--[ngStyle]="firstClass"-->
-        1<sup>st</sup> Class Service. World Class Clients.
+    <div class="Panel1">
+        <app-home-page-panel1></app-home-page-panel1>
     </div>
-    <div class="mottoHomePage">
-        Our technical expertise and professional integrity allow us to provide value engineered SMEP solutions for residential and commercial projects.
+    <div class="RibbonTile1">
+        <div class="firstClass"  >
+            <!--[ngStyle]="firstClass"-->
+            1<sup>st</sup> Class Service. World Class Clients.
+        </div>
+        <div class="lineBreak1">
+        </div>
+        <div class="mottoHomePage">
+            Gouvis Engineering Consulting Group delivers first class engineering services for many of the largest builders and architects throughout the country. With a tenured staff of over 100 employees company-wide, we have the resources and workforce to meet any schedule requirement.
+        </div>
     </div>
-
+    <div class="EngineeringServices">ENGINEERING DESIGN SERVICES</div>
     <div class="houseFrame">
         <div>
             <div>
@@ -50,10 +58,21 @@
         <div>
                 <app-quote-block></app-quote-block>
         </div>
-        <div>
-                <iframe width="600" height="360" src="https://www.youtube.com/embed/hbET2TKiaEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="videoFrame">
+            <div class="video1">
+                    <iframe width="900" height="600" src="https://www.youtube.com/embed/hbET2TKiaEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
-       
+    </div>
+    <div>
+            <div class="Over55Years">Over 55 years of design excellence</div>
+            <div class="Over55YearsLine"></div>
+    </div>
+    <div>
+        <app-grid-images></app-grid-images>
+    </div>
+    <div>
+        <app-footer></app-footer>
     </div>
 </div>
 

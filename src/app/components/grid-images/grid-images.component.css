@@ -1,0 +1,113 @@
+.homePageBottomShow{
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "picture1 picture1 picture2 picture2 picture3" "picture4 picture5 picture5 picture6 picture6" "picture7 picture7 picture8 picture8 picture9";
+    grid-gap: 1vh;
+}
+
+.homePageBottomShow > div .text1, .textDivider1 {
+    transition-timing-function: linear;
+    transition: .5s;
+    color: rgba(255, 255, 255, 0);
+}
+
+.homePageBottomShow > div .textDivider1 {
+    transition-timing-function: linear;
+    transition: .5s;
+    border-bottom-color: rgba(255, 255, 255, 0);
+    width: 0%;
+}
+
+
+.homePageBottomShow > div:hover .text1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.homePageBottomShow > div:hover .textDivider1 {
+    border-bottom-color: rgba(255, 255, 255, 1);
+    width: 100%;
+}
+
+.homePageBottomShow > div{
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.TextDecor1 {
+    margin: auto;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-timing-function: linear;
+    transition: .5s;
+}
+
+.TextDecor1:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.TextDecor2{
+    font-family: Futura-Font;
+    font-size: 2vh;
+    color: white;
+}
+
+.TextDecor2>.text1{
+    padding: 2vh;
+}
+
+
+.textDivider1{
+    border-bottom: #ffffff 2px solid;
+}
+
+.picture1 { grid-area: picture1; 
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/ABC_House_3.0.jpg');
+    background-size: cover;
+}
+
+.picture2 { grid-area: picture2; 
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Wallis_Ranch_Residential.jpg');
+    background-size: cover;
+}
+
+.picture3 { grid-area: picture3; 
+    background-color: #c2c2c2;;
+}
+
+.picture4 { grid-area: picture4;
+    background-color: #c2c2c2;;
+}
+
+.picture5 { grid-area: picture5;
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Carlisle_at_Parasol_Park.jpg');
+    background-size: cover;
+}
+
+.picture6 { grid-area: picture6;
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Royal_Oaks_Courtyard_Villas_2.jpg');
+    background-size: cover;
+}
+
+.picture7 { grid-area: picture7;
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Skye-Palm_Springs_2.jpg');
+    background-size: cover;
+}
+
+.picture8 { grid-area: picture8;
+    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Revelle_at_Clancy_Lane.jpg');
+    background-size: cover;
+}
+
+.picture9 { grid-area: picture9;
+    background-color: #c2c2c2;;
+}
+
+

@@ -1,0 +1,110 @@
+.footer{
+    background-image: url('../../../assets/Medias/Images/HomePageVideoBackGround.jpg'); /*linear-gradient(rgba(177, 193, 71, 0.5)), */
+    margin-top: 5vh;
+    padding: 1vh;
+    box-shadow: 0px -5px 6px -2px rgb(204, 204, 204);
+    background-repeat: repeat;
+    display: block;
+}
+
+.gridFooter{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.part{
+    padding: 10%;
+    border-left: #b1c147 solid 2px;
+}
+
+.first{
+    border-left: 0px;
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: transparent;
+    background: #b1c147;
+    text-align: center;
+    font-family: 'Elianto-Font';
+    font-size: 2vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+    margin-bottom: 5%;
+
+}
+
+.Copyright{
+    margin: auto;
+    text-align: center;
+    padding: 4vh;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    font-family: 'Futura-Font';
+    font-size: 2vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
+}
+
+.content{
+    margin: auto;
+    width: 100%;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    font-family: 'Futura-Font';
+    font-size: 2vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+}
+
+a {
+    margin: auto;
+    width: 100%;
+    color: transparent;
+    background: #b1c147;
+    margin: auto;
+    font-family: 'Elianto-Font';
+    font-size: 2vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
+}
+
+.socialMedia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: .5vw;
+    height: 25px;
+    width: 80%;
+    float: left;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.facebook{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/facebook.svg');
+    background-size: 100% 100%;
+}
+
+.twitter{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/twitter.svg');
+    background-size: 100% 100%;    
+}
+.instagram{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/instagram.svg');
+    background-size: 100% 100%;    
+}
+
+.linkedin{
+    background-image: url('../../../assets/Medias/Images/FooterIcons/linkedin.svg');
+    background-size: 100% 100%;    
+}
+
+.socialMedia > div{
+    cursor: pointer;
+}

@@ -1,5 +1,64 @@
 .bannerImage{
+    height: 100vh;
+}
+
+.slider1{
+    width: 600%;
+    height:100vh;
+    position: relative;
+    overflow: hidden;
+    animation: 20s slidy infinite; 
+}
+
+.slider1 > div{
+    float: left;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image1{
     background-image: url('../../../assets/Medias/Images/BannerImages/Slideshow-1.jpg');
     background-size: cover;
-    height: 100%;
 }
+
+.image2{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slideshow-2.jpeg');
+    background-size: cover;
+}
+
+.image3{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slideshow-2.jpg');
+    background-size: cover;
+}
+
+.image4{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slide-show-3.jpeg');
+    background-size: cover;
+}
+
+.image5{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slide-show-5.jpg');
+    background-size: cover;
+}
+
+.image6{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slide-show-9.jpg');
+    background-size: cover;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+@keyframes slidy {
+    0% { left: 0vw; }
+    10% { left: 0vw; }
+    20% { left: -100vw; }
+    30% { left: -100vw; }
+    40% { left: -200vw; }
+    50% { left: -200vw; }
+    60% { left: -300vw; }
+    70% { left: -300vw; }
+    80% { left: -400vw; }
+    90% { left: -400vw; }
+    }

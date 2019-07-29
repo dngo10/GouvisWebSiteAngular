@@ -1,0 +1,139 @@
+.wrapper{
+    background: lightgray;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+}
+
+.bannerImagesHomePage{
+    height: 100vh;
+    width: 100%;
+    border-bottom: 1vh;
+    border-bottom-style: solid;
+    border-bottom-color: #b1c147;
+}
+
+
+.firstClass{
+    margin : auto;
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 7vh;
+    color: #d9d9d9;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    padding: 1vh;
+    background-color:white;
+    font-family: 'Elianto-Font';
+}
+
+/*
+.mottoHomePage{
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2.5vh;
+    
+    font-family: 'Elianto-Font';
+    color: #b1c147;
+
+}
+*/
+
+.mottoHomePage{
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+    font-family: 'Elianto-Font';
+    font-size: 2vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    
+}
+
+.houseFrame{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    margin: auto;
+    margin-top: 20vh;
+    align-items: start;
+}
+
+.houseFrame > div{
+
+    margin: auto;
+    height: 30vh;
+    display: grid;
+    grid-template-rows:  5fr 1fr;
+    grid-auto-columns: 1fr;
+    border: 3px solid #b1c147;
+    box-shadow: 0 0 10px gray;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+
+}
+
+.houseFrame > div:hover{
+
+    transform: translateY(-3vh);
+    
+}
+
+
+
+
+
+.houseFrame > div > div> img{
+    
+    max-height: 50%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 15vh;
+}
+
+.houseFrame > div > div:nth-child(1){
+    padding-top: 2vh;
+}
+
+.houseFrame > div > div:nth-child(2){
+    /*border: 5px solid red;*/
+    background-color: #f7f7f7;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top:  3px solid #b1c147;
+}
+
+.houseFrame > div > div> p{
+    text-align: center;
+    font-family: 'Elianto-Font';
+    color: #b1c147;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.videoBackGround{
+    background-image: linear-gradient(rgba(177, 193, 71, 0.5)), url('../assets/Medias/Images/HomePageVideoBackGround.jpg');
+    margin-top: 10vh;
+    padding: 1vh;
+    box-shadow: 0 -5px 6px -2px rgb(204, 204, 204);
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.videoBackGround > div{
+    margin: auto;
+
+}

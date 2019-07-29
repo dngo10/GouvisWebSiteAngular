@@ -1,0 +1,5 @@
+.bannerImage{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slideshow-1.jpg');
+    background-size: cover;
+    height: 100%;
+}

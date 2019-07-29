@@ -1,0 +1,27 @@
+.quoteBlock{
+    padding: 5vh;
+    border-radius: 3vh;
+    /*border: .3vh solid red;*/
+    
+    
+}
+
+.quoteSentence{
+    border: .5vw double #b1c147;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    padding: 2vw;
+    font-family: 'OldeEnglish-Font';
+    font-size: 5vh;
+    color: #868686;
+    text-align: center;
+    background-size: cover;
+    background-color: rgb(225, 247, 192);
+    text-shadow: 1px 1px 2px black;
+}
+
+.author{
+    text-align: center;
+    background: red;
+    display: inline-block;
+}

@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@font-face{
+    font-family: 'Elianto-Font';
+    src: url('/assets/Medias/Fonts/Elianto-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'HoneyScript-Font';
+    src: url('assets/Medias/Fonts/HoneyScript-Light.ttf');
+}
+
+
+@font-face{
+    font-family: 'Avenir-Font';
+    src: url('assets/Medias/Fonts/AvenirCondensedHand.ttf');
+}
+
+@font-face{
+    font-family: 'OldeEnglish-Font';
+    src: url('assets/Medias/Fonts/OldeEnglish.ttf');
+}

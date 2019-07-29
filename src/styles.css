@@ -25,3 +25,9 @@
     font-family: 'OldeEnglish-Font';
     src: url('assets/Medias/Fonts/OldeEnglish.ttf');
 }
+
+@font-face{
+    font-family: 'Futura-Font';
+    src: url('assets/Medias/Fonts/Futura_Book_font.ttf');
+}
+

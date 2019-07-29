@@ -1,11 +1,11 @@
 .quoteBlock{
     padding: 5vh;
-    border-radius: 3vh;
     /*border: .3vh solid red;*/
-    
-    
+    border-right: 5px solid #b1c147;
+
 }
 
+/*
 .quoteSentence{
     border: .5vw double #b1c147;
     border-top-right-radius: 5vw;
@@ -19,9 +19,48 @@
     background-color: rgb(225, 247, 192);
     text-shadow: 1px 1px 2px black;
 }
+*/
 
-.author{
-    text-align: center;
-    background: red;
-    display: inline-block;
+.author {
+    margin: auto;
+    text-align: right;
+    padding-right: 2vw;
 }
+
+.quoteSentence
+{
+    border: .5vw #b1c147;
+    padding: 2vw;
+    font-family: 'Futura-Font';
+    font-size: 3vh;
+    color: #381f1f;
+    text-align: center;
+    background-size: cover;
+    background-color: rgb(225, 247, 192);
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.quoteSentence > p:nth-child(2){
+    text-align: right;
+    font-size: 2.5vh;
+}
+
+.quoteSentence:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.ourProfession {
+    width: 100%;
+    padding-bottom: 3vh;
+    position: relative;
+    text-align: center;
+	text-shadow: 2px 2px 2px rgba(206,89,55,0);
+
+    color: #222;
+    font-family: 'Futura-Font';
+    font-size: 3vw;
+    margin: auto;
+  }
+  

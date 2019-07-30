@@ -1,19 +1,20 @@
 .footer{
-    background-image: url('../../../assets/Medias/Images/HomePageVideoBackGround.jpg'); /*linear-gradient(rgba(177, 193, 71, 0.5)), */
+    background-color: whitesmoke;
     margin-top: 5vh;
     padding: 1vh;
+    padding-top: 3vh;
     box-shadow: 0px -5px 6px -2px rgb(204, 204, 204);
     background-repeat: repeat;
     display: block;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 951px){
     .gridFooter{
         display: none;
     }
 }
 
-@media only screen and (min-width: 801px){
+@media only screen and (min-width: 952px){
     .gridFooter{
         margin: auto;
         width: 80%;
@@ -24,6 +25,7 @@
 
 .part{
     text-align: center;
+    border-left: #b1c147 2px solid;
 }
 
 .thirdF{
@@ -50,6 +52,7 @@
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
     margin-bottom: 5%;
+    font-weight: 900;
 }
 
 .Copyright{
@@ -60,7 +63,7 @@
     background: #666666;
     margin: auto;
     font-family: 'Catherine-font';
-    font-size: 90%;
+    font-size: 100%;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
 }
@@ -121,4 +124,8 @@ a {
 
 .socialMedia > div{
     cursor: pointer;
+}
+
+.space1{
+    padding: 2vh;
 }

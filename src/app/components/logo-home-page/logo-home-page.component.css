@@ -1,9 +1,62 @@
 .logo{
     position: absolute;
-    left: 150px;
-    top: 150px;
+    left: 10vw;
+    top: 10vh;
     width: 200px;
     height: 120px;
-    border: 3px solid green;
     z-index: 1;
+    cursor:pointer;
 }
+
+
+.menu{
+    position: absolute;
+    left: 90vw;
+    top: 12vh;
+    width: 100px;
+    height: 120px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #b1c147;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-left: #afb9b2 0vw solid;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #333333;
+    display: block;
+    transition: 0.3s;
+    padding-top: 10vh;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    padding-top: 10vh;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  

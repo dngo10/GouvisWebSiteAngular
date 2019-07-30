@@ -9,6 +9,10 @@ import { GridImagesComponent } from './components/grid-images/grid-images.compon
 import { HomePagePanel1Component } from './components/home-page-panel1/home-page-panel1.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoHomePageComponent } from './components/logo-home-page/logo-home-page.component';
+import { FirstClassComponent } from './components/HomePage/first-class/first-class.component';
+import { ServicesWordsComponent } from './components/HomePage/services-words/services-words.component';
+import { CardsComponent } from './components/HomePage/cards/cards.component';
+import { VideoIntroComponent } from './components/HomePage/video-intro/video-intro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { LogoHomePageComponent } from './components/logo-home-page/logo-home-pag
     GridImagesComponent,
     HomePagePanel1Component,
     FooterComponent,
-    LogoHomePageComponent
+    LogoHomePageComponent,
+    FirstClassComponent,
+    ServicesWordsComponent,
+    CardsComponent,
+    VideoIntroComponent
   ],
   imports: [
     BrowserModule,

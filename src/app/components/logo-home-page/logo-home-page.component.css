@@ -1,20 +1,24 @@
+.Menu{
+  width: 100%;
+  position: absolute;
+  top: 10vh;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  align-items: center;
+}
+
 .logo{
-    position: absolute;
-    left: 10vw;
-    top: 10vh;
-    width: 200px;
-    height: 120px;
+
     z-index: 1;
     cursor:pointer;
+    display: block;
+    margin-left: 5vw;
 }
 
 
 .menu{
-    position: absolute;
-    left: 90vw;
-    top: 12vh;
-    width: 100px;
-    height: 120px;
+    float: right;
     z-index: 1;
     cursor:pointer;
 }
@@ -59,4 +63,14 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  
+
+  @media only screen and (max-width: 682px){
+    .logo{
+      display: none;
+    }
+
+    .Menu{
+      display: block;
+    }
+
+  }

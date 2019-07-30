@@ -20,138 +20,8 @@
     */
 }
 
-.RibbonTile1{
-    background-color: #f7f7f7;
-    padding-top: 10vh;
-    padding-bottom: 20vh;
-
-}
 
 
-.firstClass{
-    margin: auto;
-    text-align: center;
-    width: 70%;
-    color: transparent;
-    background: #666666;
-    margin: auto;
-    margin-top: 12vh;
-    text-align: center;
-    font-family: 'Elianto-Font';
-    font-size: 7vh;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
-
-.lineBreak1{
-    margin: auto;
-    border-bottom: #b1c147 .5vh solid;
-    width: 20%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-
-/*
-.mottoHomePage{
-    margin: auto;
-    margin-top: 3vh;
-    text-align: center;
-    font-size: 2.5vh;
-    
-    font-family: 'Elianto-Font';
-    color: #b1c147;
-
-}
-*/
-
-.mottoHomePage{
-    margin: auto;
-    text-align: center;
-    width: 70%;
-    color: transparent;
-    background: #666666;
-    margin: auto;
-    margin-top: 12vh;
-    text-align: center;
-    font-family: 'Elianto-Font';
-    font-size: 2vh;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-    
-}
-
-.houseFrame{
-    width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 2vw;
-    margin: auto;
-    margin-top: 20vh;
-    align-items: start;
-    margin-bottom: 20vh;
-}
-
-.houseFrame > div{
-    margin: auto;
-    height: 30vh;
-    display: grid;
-    grid-template-rows:  5fr 1fr;
-    grid-auto-columns: 1fr;
-    border: 3px solid #b1c147;
-    box-shadow: 0 0 3px gray;
-    /*border-top-left-radius: 2vw;*/
-    /*border-top-right-radius: 2vw;*/
-    transition: all 300ms;
-}
-
-.houseFrame > div:hover{
-
-    transform: translateY(-2vh);
-    
-}
-
-.houseFrame > div > div> img{
-    
-    max-height: 50%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 15vh;
-}
-
-.houseFrame > div > div:nth-child(1){
-    padding-top: 2vh;
-}
-
-.houseFrame > div > div:nth-child(2){
-    /*border: 5px solid red;*/
-    background-color: #f7f7f7;
-    padding: 2vh;
-    border-top:  3px solid #b1c147;
-}
-
-.houseFrame > div > div> p{
-    margin: auto;
-    text-align: center;
-    color: transparent;
-    background: #666666;
-    margin: auto;
-    text-align: center;
-    font-family: 'Elianto-Font';
-    font-size: 2.5vh;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
-
-.videoBackGround{
-    background-color: #f7f7f7;
-    margin: auto;
-    margin-top: 10vh;
-    box-shadow: 0px -3px 6px -2px rgb(204, 204, 204);
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-}
 
 .Over55Years{
     margin: auto;
@@ -162,26 +32,13 @@
     margin: auto;
     margin-top: 12vh;
     text-align: center;
-    font-family: 'Elianto-Font';
+    font-family: 'Catherine-font';
     font-size: 5vh;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
-.EngineeringServices{
-    margin: auto;
-    text-align: center;
-    width: 70%;
-    color: transparent;
-    background: #666666;
-    margin: auto;
-    margin-top: 12vh;
-    text-align: center;
-    font-family: 'Elianto-Font';
-    font-size: 5vh;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
+
 
 .Over55YearsLine{
     border-bottom: #b1c147 solid .7vh;
@@ -191,16 +48,3 @@
     margin-bottom: 10vh;
 }
 
-.video1{
-
-}
-
-.videoFrame{
-    background-color: rgb(255, 247, 211);
-    padding-left: 10%;
-    border-left: #b1c147 0.25vw solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}

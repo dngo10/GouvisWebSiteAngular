@@ -1,50 +1,70 @@
+
 .Panel1Text1{
-    
+        
     margin : auto;
     text-align: left;
-    font-size: 5vh;
+    font-size: 2em;
     color: #ffffff;
     text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
-    font-family: 'Elianto-Font';
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    font-family: 'Catherine-font';
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .Panel1Text2{
     margin : auto;
     text-align: left;
-    font-size: 2.5vh;
+    font-size: 1.5em;
     color: #ffffff;
-    font-family: 'Elianto-Font';
-    padding-bottom: 3vh;
-    margin-top: 3vh;
+    font-family: 'Catherine-font';
+    padding-bottom: 5%;
+    margin-top: 5%;
 }
+
 .PanelTextUnder{
     margin: auto;
-    width: 80%
+    width: 80%;
 }
 
 .Panel1Divider{
-    border-bottom: .25vh dotted white;
+    border-bottom: 2px dotted white;
 }
 
 
-.PanelText{
-    background-color: #b1c147
+@media only screen and (min-width: 801px){
+
+    .PanelText{
+        background-color: #b1c147;
+        display: flex;
+    }
+
+    .Panel1{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1vh;
+        grid-auto-rows: 1fr;
+        min-height: 50vh;
+    }
+
+    .Panel1Image{
+        background-image: url('../../../assets/Medias/Images/HomePagePicture1.jpg');
+        background-size: cover;
+    }
 }
 
-.Panel1{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1vh;
-    grid-auto-rows: 1fr
+@media only screen and (max-width: 800px){
 
-}
+    .PanelText{
+        background: linear-gradient(rgba(177, 193, 71, 0.8),rgba(177, 193, 71, 0.8)), url('../../../assets/Medias/Images/HomePagePicture1.jpg');
+        background-size: cover;
+        display: flex;
+    }
 
-.Panel1Image{
-    background-image: url('../../../assets/Medias/Images/HomePagePicture1.jpg');
-    background-size: cover;
-    height: 50vh;
+    .Panel1{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        min-height: 50vh;
+    }
 }

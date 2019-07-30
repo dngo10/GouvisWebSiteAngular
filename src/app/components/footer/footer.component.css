@@ -7,16 +7,33 @@
     display: block;
 }
 
-.gridFooter{
-    margin: auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+@media only screen and (max-width: 800px){
+    .gridFooter{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 801px){
+    .gridFooter{
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .part{
-    padding: 10%;
-    border-left: #b1c147 solid 2px;
+    text-align: center;
+}
+
+.thirdF{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.middleThirdF{
+    margin: auto;
 }
 
 .first{
@@ -25,17 +42,14 @@
 
 .title{
     margin: auto;
-    text-align: center;
     width: 70%;
     color: transparent;
     background: #b1c147;
-    text-align: center;
-    font-family: 'Elianto-Font';
-    font-size: 2vh;
+    font-family: 'Catherine-font';
+    font-size: 1.2em;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
     margin-bottom: 5%;
-
 }
 
 .Copyright{
@@ -45,8 +59,8 @@
     color: transparent;
     background: #666666;
     margin: auto;
-    font-family: 'Futura-Font';
-    font-size: 2vh;
+    font-family: 'Catherine-font';
+    font-size: 90%;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
 }
@@ -57,8 +71,8 @@
     color: transparent;
     background: #666666;
     margin: auto;
-    font-family: 'Futura-Font';
-    font-size: 2vh;
+    font-family: 'Catherine-font';
+    font-size: 80%;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
 }
@@ -69,8 +83,8 @@ a {
     color: transparent;
     background: #b1c147;
     margin: auto;
-    font-family: 'Elianto-Font';
-    font-size: 2vh;
+    font-family: 'Catherine-font';
+    font-size: 1.2em;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
 }

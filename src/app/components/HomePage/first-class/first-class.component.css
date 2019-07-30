@@ -1,0 +1,72 @@
+.RibbonTile1{
+    background-color: #f7f7f7;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+
+}
+
+
+.lineBreak1{
+    margin: auto;
+    border-bottom: #b1c147 .5vh solid;
+    width: 20%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.mottoHomePage{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    margin-top: 9.5vh;
+    text-align: center;
+    font-family: 'Catherine-font';
+    font-size: 1em;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+    .firstClass{
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        color: transparent;
+        background: #666666;
+        margin: auto;
+        margin-top: 12vh;
+        text-align: center;
+        font-family: 'Catherine-font';
+        font-size: 3em;
+        background-clip: text;
+        text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    }
+
+}
+
+@media only screen and (min-width: 801px){
+
+
+    .firstClass{
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        color: transparent;
+        background: #666666;
+        margin: auto;
+        margin-top: 12vh;
+        text-align: center;
+        font-family: 'Catherine-font';
+        font-size: 4em;
+        background-clip: text;
+        text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    }
+    
+}

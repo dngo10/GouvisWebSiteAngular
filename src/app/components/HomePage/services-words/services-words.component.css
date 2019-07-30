@@ -1,0 +1,14 @@
+.EngineeringServices{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    margin-top: 12vh;
+    text-align: center;
+    font-family: 'Catherine-font';
+    font-size: 2em;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}

@@ -1,0 +1,19 @@
+.videoBackGround{
+
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+.video1{
+
+}
+
+.videoFrame{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

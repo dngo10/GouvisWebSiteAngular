@@ -3,7 +3,7 @@
 }
 
 .slider1{
-    width: 600%;
+    width: 800%;
     height:100vh;
     position: relative;
     overflow: hidden;
@@ -46,12 +46,17 @@
     background-size: cover;
 }
 
+.image7{
+    background-image: url('../../../assets/Medias/Images/BannerImages/Slideshow-1.jpg');
+    background-size: cover;
+}
+
 .slider{
     overflow: hidden;
 }
 
 @keyframes slidy {
-    0% { left: 0vw; }
+    0% {  left: 0vw; }
     10% { left: 0vw; }
     20% { left: -100vw; }
     30% { left: -100vw; }
@@ -61,4 +66,5 @@
     70% { left: -300vw; }
     80% { left: -400vw; }
     90% { left: -400vw; }
+    100%{ left: -500vw;}
     }

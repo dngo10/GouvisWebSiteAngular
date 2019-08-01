@@ -7,6 +7,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "picture1 picture1 picture2 picture2 picture3" "picture4 picture5 picture5 picture6 picture6" "picture7 picture7 picture8 picture8 picture9";
+
     }
 }
 

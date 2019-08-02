@@ -1,0 +1,49 @@
+.wrapper{
+    background: lightgray;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+}
+
+.bannerImagesHomePage{
+    height: 100vh;
+    width: 100%;
+    /*
+    border-bottom: 1vh;
+    border-bottom-style: solid;
+    border-bottom-color: #b1c147;
+    */
+}
+
+
+
+
+.Over55Years{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: transparent;
+    background: #666666;
+    margin: auto;
+    margin-top: 12vh;
+    text-align: center;
+    font-family: 'Avenir-bold-font';
+    font-size: 5vh;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+
+
+.Over55YearsLine{
+    border-bottom: #b1c147 solid .7vh;
+    width: 20vw;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}

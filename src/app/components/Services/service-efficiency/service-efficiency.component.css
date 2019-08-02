@@ -1,0 +1,41 @@
+.EffeciencyBanner{
+    margin-top: 10vh;
+    background-color: whitesmoke;
+    padding: 2vw;
+}
+
+.Effeciency{
+    margin: auto;
+    text-align: center;
+    font-family: 'Avenir-bold-font';
+    font-size: 2em;
+    margin-bottom: 5vh;
+}
+
+.LineDivider{
+    margin: auto;
+    border-bottom: 2px #b1c147 solid;
+    width: 20%;
+    margin-bottom: 5vh;
+}
+
+.Text1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Avenir-font';
+    font-size: 1.2em;
+    width: 70vw;
+    margin-bottom: 5vh;
+}
+
+.Text2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Avenir-font';
+    font-size: 1.2em;
+    width: 70vw;
+    margin-bottom: 5vh;
+}
+

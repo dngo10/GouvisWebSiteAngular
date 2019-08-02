@@ -38,6 +38,7 @@
     transition-timing-function: linear;
     transition: .5s;
     color: rgba(255, 255, 255, 0);
+    font-family: 'Avenir-font';
 }
 
 .homePageBottomShow > div .textDivider1 {

@@ -13,6 +13,11 @@ import { FirstClassComponent } from './components/HomePage/first-class/first-cla
 import { ServicesWordsComponent } from './components/HomePage/services-words/services-words.component';
 import { CardsComponent } from './components/HomePage/cards/cards.component';
 import { VideoIntroComponent } from './components/HomePage/video-intro/video-intro.component';
+import { MainComponent } from './components/HomePage/main/main.component';
+import { ServiceMainComponent } from './components/Services/service-main/service-main.component';
+import { ServiceBannerComponent } from './components/Services/service-banner/service-banner.component';
+import { ServiceEfficiencyComponent } from './components/Services/service-efficiency/service-efficiency.component';
+import { SmepTitlesComponent } from './components/Services/smep-titles/smep-titles.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { VideoIntroComponent } from './components/HomePage/video-intro/video-int
     FirstClassComponent,
     ServicesWordsComponent,
     CardsComponent,
-    VideoIntroComponent
+    VideoIntroComponent,
+    MainComponent,
+    ServiceMainComponent,
+    ServiceBannerComponent,
+    ServiceEfficiencyComponent,
+    SmepTitlesComponent
   ],
   imports: [
     BrowserModule,

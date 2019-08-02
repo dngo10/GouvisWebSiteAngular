@@ -5,12 +5,12 @@
     display: grid;
     grid-template-rows:  5fr 1fr;
     grid-auto-columns: 1fr;
-    border: 3px solid #b1c147;
+    border: 3px solid #f7f7f7;
     box-shadow: 0 0 3px gray;
     /*border-top-left-radius: 2vw;*/
     /*border-top-right-radius: 2vw;*/
     transition: all 300ms;
-
+    background-color: #b1c147;
 }
 
 .houseFrame > div:hover{
@@ -27,15 +27,15 @@
 
 .houseFrame > div > div> img{
     
-    height: 100px;
-    max-width: 30%;
+    height: 70px;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
 
 }
 
 .houseFrame > div > div:nth-child(1){
-    
+
 }
 
 .houseFrame > div > div:nth-child(2){
@@ -51,7 +51,7 @@
     color: transparent;
     background: #666666;
     text-align: center;
-    font-family: 'Catherine-font';
+    font-family: 'Avenir-bold-font';
     font-size: 1em;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);

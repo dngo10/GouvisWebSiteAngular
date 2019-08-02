@@ -36,3 +36,25 @@
     src: url('assets/Medias/Fonts/Aaargh.ttf');
 }
 
+@font-face{
+    font-family: 'Sans-condensed-font';
+    src: url('assets/Medias/Fonts/OpenSans-CondLight.ttf');
+}
+
+@font-face{
+    font-family: 'Avenir-font';
+    src: url('assets/Medias/Fonts/AvenirFonts/AvenirLTStd-Light.otf');
+}
+
+@font-face{
+    font-family: 'Avenir-bold-font';
+    src: url('assets/Medias/Fonts/AvenirFonts/AvenirLTStd-Black.otf');
+}
+
+@font-face{
+    font-family: 'helvetica-light';
+    src: url('assets/Medias/Fonts/Helvetica-Light.otf');
+}
+
+
+

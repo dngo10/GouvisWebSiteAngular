@@ -17,7 +17,7 @@
 @media only screen and (min-width: 952px){
     .gridFooter{
         margin: auto;
-        width: 80%;
+        width: 80vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -47,12 +47,12 @@
     width: 70%;
     color: transparent;
     background: #b1c147;
-    font-family: 'Catherine-font';
+    font-family: 'Avenir-bold-font';
     font-size: 1.2em;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
     margin-bottom: 5%;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .Copyright{
@@ -62,7 +62,7 @@
     color: transparent;
     background: #666666;
     margin: auto;
-    font-family: 'Catherine-font';
+    font-family: 'Avenir-font';
     font-size: 100%;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);   
@@ -74,7 +74,7 @@
     color: transparent;
     background: #666666;
     margin: auto;
-    font-family: 'Catherine-font';
+    font-family: 'Avenir-font';
     font-size: 80%;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
@@ -86,7 +86,7 @@ a {
     color: transparent;
     background: #b1c147;
     margin: auto;
-    font-family: 'Catherine-font';
+    font-family: 'Avenir-font';
     font-size: 1.2em;
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);    
@@ -97,10 +97,9 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: .5vw;
     height: 25px;
-    width: 80%;
-    float: left;
-    position: relative;
-    margin-top: 2vh;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 
 }
 
 .facebook{
@@ -124,6 +123,7 @@ a {
 
 .socialMedia > div{
     cursor: pointer;
+
 }
 
 .space1{

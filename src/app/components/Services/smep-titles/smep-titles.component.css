@@ -1,0 +1,24 @@
+.Title1{
+    margin: auto;
+    text-align: center;
+    font-family: "Avenir-bold-font";
+    font-size: 2em;
+
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.lineDivider{
+    margin: auto;
+    border-bottom: 2px #b1c147 solid;
+    margin-bottom: 3vh;
+    width: 20%;
+}
+
+.Text1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    font-family: "helvetica-light";
+    font-size: 1.2em;
+}

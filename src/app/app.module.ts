@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BannerComponent } from './components/banner/banner.component';
+import { BannerComponent } from './components/HomePage/banner/banner.component';
 import { QuoteBlockComponent } from './components/quote-block/quote-block.component';
-import { GridImagesComponent } from './components/grid-images/grid-images.component';
-import { HomePagePanel1Component } from './components/home-page-panel1/home-page-panel1.component';
+import { GridImagesComponent } from './components/HomePage/grid-images/grid-images.component';
+import { HomePagePanel1Component } from './components/HomePage/home-page-panel1/home-page-panel1.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LogoHomePageComponent } from './components/logo-home-page/logo-home-page.component';
+import { LogoHomePageComponent } from './components/header/logo-home-page.component';
 import { FirstClassComponent } from './components/HomePage/first-class/first-class.component';
 import { ServicesWordsComponent } from './components/HomePage/services-words/services-words.component';
 import { CardsComponent } from './components/HomePage/cards/cards.component';
@@ -18,6 +18,10 @@ import { ServiceMainComponent } from './components/Services/service-main/service
 import { ServiceBannerComponent } from './components/Services/service-banner/service-banner.component';
 import { ServiceEfficiencyComponent } from './components/Services/service-efficiency/service-efficiency.component';
 import { SmepTitlesComponent } from './components/Services/smep-titles/smep-titles.component';
+import { SeviceServicesComponent } from './components/Services/sevice-services/sevice-services.component';
+import { CommonBannerComponent } from './components/Common/common-banner/common-banner.component';
+import { MediaMainComponent } from './components/Media/media-main/media-main.component';
+import { CommonTextSloganComponent } from './components/Common/common-text-slogan/common-text-slogan.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +40,11 @@ import { SmepTitlesComponent } from './components/Services/smep-titles/smep-titl
     ServiceMainComponent,
     ServiceBannerComponent,
     ServiceEfficiencyComponent,
-    SmepTitlesComponent
+    SmepTitlesComponent,
+    SeviceServicesComponent,
+    CommonBannerComponent,
+    MediaMainComponent,
+    CommonTextSloganComponent
   ],
   imports: [
     BrowserModule,

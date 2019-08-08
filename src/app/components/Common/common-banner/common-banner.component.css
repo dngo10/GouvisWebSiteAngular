@@ -1,14 +1,16 @@
-.PictureBanner{
-    --backgroundImageUrl: url('../../../../assets/Medias/Images/BannerImages/ServiceBanner.jpg');
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%),
-    var(--backgroundImageUrl);
+
+    
+
+
+.CommonPictureBanner{
     height: 70vh;
     background-size: cover;
     display: flex;
     align-items: center;
+
 }
 
-.PictureBanner > p{
+.CommonPictureBanner > p{
     font-size: 5em;
     text-align: center;
     margin: auto;

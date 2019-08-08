@@ -97,12 +97,12 @@
 }
 
 .picture1 { grid-area: picture1; 
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/ABC_House_3.0.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/ABC_House_3.0.jpg');
     background-size: cover;
 }
 
 .picture2 { grid-area: picture2; 
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Wallis_Ranch_Residential.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/Wallis_Ranch_Residential.jpg');
     background-size: cover;
 }
 
@@ -115,22 +115,22 @@
 }
 
 .picture5 { grid-area: picture5;
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Carlisle_at_Parasol_Park.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/Carlisle_at_Parasol_Park.jpg');
     background-size: cover;
 }
 
 .picture6 { grid-area: picture6;
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Royal_Oaks_Courtyard_Villas_2.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/Royal_Oaks_Courtyard_Villas_2.jpg');
     background-size: cover;
 }
 
 .picture7 { grid-area: picture7;
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Skye-Palm_Springs_2.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/Skye-Palm_Springs_2.jpg');
     background-size: cover;
 }
 
 .picture8 { grid-area: picture8;
-    background-image: url('../../../assets/Medias/Images/ImagesGridBottomHomePage/Revelle_at_Clancy_Lane.jpg');
+    background-image: url('../../../../assets/Medias/Images/ImagesGridBottomHomePage/Revelle_at_Clancy_Lane.jpg');
     background-size: cover;
 }
 

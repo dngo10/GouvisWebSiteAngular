@@ -50,7 +50,7 @@
     }
 
     .Panel1Image{
-        background-image: url('../../../assets/Medias/Images/HomePagePicture1.jpg');
+        background-image: url('../../../../assets/Medias/Images/HomePagePicture1.jpg');
         background-size: cover;
     }
 }
@@ -58,7 +58,7 @@
 @media only screen and (max-width: 800px){
 
     .PanelText{
-        background: linear-gradient(rgba(177, 193, 71, 0.8),rgba(177, 193, 71, 0.8)), url('../../../assets/Medias/Images/HomePagePicture1.jpg');
+        background: linear-gradient(rgba(177, 193, 71, 0.8),rgba(177, 193, 71, 0.8)), url('../../../../assets/Medias/Images/HomePagePicture1.jpg');
         background-size: cover;
         display: flex;
     }

@@ -1,0 +1,57 @@
+{ "data":
+    [{"key": "ilink", "value":"files/assets/cover/1.jpg"},
+    
+    {"key": "January 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Jan/"},
+    {"key": "Febuary 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Feb/"},
+    {"key": "April 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Apr/"},
+    {"key": "June 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Jun/"},
+    {"key": "July 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Jul/"},
+    {"key": "August 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Aug/"},
+    {"key": "September 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Sep/"},
+    {"key": "October 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Oct/"},
+    {"key": "November 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Nov/"},
+    {"key": "December 2017" , "value":"https://penpubinc.com/magazine/online/2017/BD/Dec/"},
+
+    {"key": "January 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Jan/"},
+    {"key": "Febuary 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Feb/"},
+    {"key": "March 2018" , "value":"https://penpubinc.com/magazine/online/2018/BD/Mar/"},
+    {"key": "April 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Apr/"},
+    {"key": "May 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/May/"},
+    {"key": "June 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Jun/"},
+    {"key": "July 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Jul/"},
+    {"key": "August 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Aug/"},
+    {"key": "September 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Sep/"},
+    {"key": "October 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Oct/"},
+    {"key": "November 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Nov/"},
+    {"key": "December 2018"  , "value":"https://penpubinc.com/magazine/online/2018/BD/Dec/"},
+
+    {"key": "January 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Jan/"},
+    {"key": "Febuary 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Feb/"},
+    {"key": "March 2019", "value": "https://penpubinc.com/magazine/online/2019/BD/Mar/"},
+    {"key": "April 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Apr/"},
+    {"key": "May 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/May/"},
+    {"key": "June 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Jun/"},
+    {"key": "July 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Jul/"},
+    {"key": "August 2019" , "value": "https://penpubinc.com/magazine/online/2019/BD/Aug/"},
+
+    {"key": "comment" , "value" : "GREEN HOME BUILDER"},
+
+    {"key": "Jan/Feb 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/JanFeb/"},
+    {"key": "Mar/Apr 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/MarApr/"},
+    {"key": "May/Jun 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/MayJun/"},
+    {"key": "Jul/Aug 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/JulAug/"},
+    {"key": "Sep/Oct 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/SepOct/"},
+    {"key": "Nov/Dec 2017" , "value": "https://penpubinc.com/magazine/online/2017/GHB/NovDec/"},
+
+    {"key": "Jan/Feb 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/JanFeb/"},
+    {"key": "Mar/Apr 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/MarApr/"},
+    {"key": "May/Jun 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/MayJun/"},
+    {"key": "Jul/Aug 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/JulAug/"},
+    {"key": "Sep/Oct 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/SepOct/"},
+    {"key": "Nov/Dec 2018" , "value": "https://penpubinc.com/magazine/online/2018/GHB/NovDec/"},
+
+    {"key": "Jan/Feb 2019" , "value": "https://penpubinc.com/magazine/online/2019/GHB/JanFeb/"},
+    {"key": "Mar/Apr 2019" , "value": "https://penpubinc.com/magazine/online/2019/GHB/MarApr/"},
+    {"key": "May/Jun 2019" , "value": "https://penpubinc.com/magazine/online/2019/GHB/MayJun/"},
+    {"key": "Jul/Aug 2019" , "value": "https://penpubinc.com/magazine/online/2019/GHB/JulAug/"}]
+}

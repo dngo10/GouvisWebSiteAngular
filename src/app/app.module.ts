@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,9 @@ import { SeviceServicesComponent } from './components/Services/sevice-services/s
 import { CommonBannerComponent } from './components/Common/common-banner/common-banner.component';
 import { MediaMainComponent } from './components/Media/media-main/media-main.component';
 import { CommonTextSloganComponent } from './components/Common/common-text-slogan/common-text-slogan.component';
+import { MagazineGridComponent } from './components/Media/magazine-grid/magazine-grid.component';
+import { MagazineElementComponent } from './components/Media/magazine-element/magazine-element.component';
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [
@@ -44,11 +48,15 @@ import { CommonTextSloganComponent } from './components/Common/common-text-sloga
     SeviceServicesComponent,
     CommonBannerComponent,
     MediaMainComponent,
-    CommonTextSloganComponent
+    CommonTextSloganComponent,
+    MagazineGridComponent,
+    MagazineElementComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

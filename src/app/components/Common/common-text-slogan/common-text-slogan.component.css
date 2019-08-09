@@ -10,6 +10,11 @@
     font-family: 'Avenir-bold-font';
     font-size: 2em;
     margin-bottom: 5vh;
+    color: transparent;
+    background: #666666;
+    font-family: 'Avenir-bold-font';
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
 .LineDivider{
@@ -27,15 +32,5 @@
     font-size: 1.2em;
     width: 70vw;
     margin-bottom: 5vh;
+    
 }
-
-.Text2{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: 'Avenir-font';
-    font-size: 1.2em;
-    width: 70vw;
-    margin-bottom: 5vh;
-}
-

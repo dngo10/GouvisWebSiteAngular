@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./common-text-slogan.component.css']
 })
 export class CommonTextSloganComponent implements OnInit {
+  title : string;
+  content: string
 
   constructor() { }
 
